@@ -13,6 +13,7 @@
 		D7DA18D91B3B52F100A66B7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7DA18D81B3B52F100A66B7B /* Images.xcassets */; };
 		D7DA18DC1B3B52F100A66B7B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7DA18DA1B3B52F100A66B7B /* LaunchScreen.xib */; };
 		D7DA18E81B3B52F100A66B7B /* FoodAndFriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DA18E71B3B52F100A66B7B /* FoodAndFriendsTests.swift */; };
+		D7DA18FA1B3B5D0400A66B7B /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DA18F91B3B5D0400A66B7B /* SignUpController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D7DA18E11B3B52F100A66B7B /* FoodAndFriendsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodAndFriendsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7DA18E61B3B52F100A66B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7DA18E71B3B52F100A66B7B /* FoodAndFriendsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodAndFriendsTests.swift; sourceTree = "<group>"; };
+		D7DA18F91B3B5D0400A66B7B /* SignUpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				D7DA18D11B3B52F100A66B7B /* AppDelegate.swift */,
 				D7DA18D31B3B52F100A66B7B /* ViewController.swift */,
+				D7DA18F91B3B5D0400A66B7B /* SignUpController.swift */,
 				D7DA18D51B3B52F100A66B7B /* Main.storyboard */,
 				D7DA18D81B3B52F100A66B7B /* Images.xcassets */,
 				D7DA18DA1B3B52F100A66B7B /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				D7DA18D41B3B52F100A66B7B /* ViewController.swift in Sources */,
 				D7DA18D21B3B52F100A66B7B /* AppDelegate.swift in Sources */,
+				D7DA18FA1B3B5D0400A66B7B /* SignUpController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

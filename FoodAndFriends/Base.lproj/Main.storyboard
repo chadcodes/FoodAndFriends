@@ -27,6 +27,9 @@
                                 <state key="normal" title="Sign up">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="SignUp:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="3Op-Rw-m9N"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJ7-Wv-714">
                                 <rect key="frame" x="87" y="269" width="47" height="30"/>
@@ -37,9 +40,6 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <connections>
-                        <segue destination="vDu-nM-yYx" kind="push" id="1FK-jO-9uQ"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -71,10 +71,10 @@
             </objects>
             <point key="canvasLocation" x="661" y="-76"/>
         </scene>
-        <!--View Controller-->
+        <!--Sign Up Controller-->
         <scene sceneID="FhV-Vb-isz">
             <objects>
-                <viewController id="Bcw-Js-ezS" sceneMemberID="viewController">
+                <viewController id="Bcw-Js-ezS" customClass="SignUpController" customModule="FoodAndFriends" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QYj-uW-Bqi"/>
                         <viewControllerLayoutGuide type="bottom" id="9W5-jT-et1"/>
@@ -92,6 +92,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="fIb-Ht-bkx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IyS-qf-aoE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SignUpController.swift
 //  FoodAndFriends
 //
 //  Created by bitmaker on 2015-06-24.
@@ -8,23 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SignUpController: UIViewController {
 
-    @IBAction func SignUp(sender: AnyObject) {
-        
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
+    
 }
-
